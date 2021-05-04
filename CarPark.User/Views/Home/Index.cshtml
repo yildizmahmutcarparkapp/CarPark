@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.Extensions.Localization
+@inject IStringLocalizer<SharedResource> localizer
+
+<h1>Home index sayfasının başlığıdır.</h1>
+<h3>Bu başlık change-title branchi içindir.</h3>
+<p>Bu paragraf master branchinden eklenmiştir.</p>
+<p>Bu change title branchine ait bir paragraftır.</p>
+<div class="text-center">
+   @localizer["Welcome"]
+</div>
+
+    <p>Bu paragram açılan issue içindir!</p>
+    <a>Tıklayınız<a/>

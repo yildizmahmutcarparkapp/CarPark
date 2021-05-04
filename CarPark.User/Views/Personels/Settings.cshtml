@@ -1,0 +1,127 @@
+﻿@model PersonelProfileInfo
+@{
+    ViewData["Title"] = "Settings";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content">
+    <form class="row" asp-controller="Personels" asp-action="Settings" 
+          asp-all-route-data-ajax-failure="onFailed"
+          data-ajax-success="onSuccess"
+          data-ajax-begin="onBegin"
+          data-ajax="true"
+          data-ajax-method="POST"
+          enctype="multipart/form-data">
+        <div class="col-lg-8">
+            <div class="card">
+                <h4 class="card-title"><strong>Personel</strong> Bilgileri</h4>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Adınız</label>
+                            <input asp-for="Name" class="form-control" type="text" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Soyadınız</label>
+                            <input asp-for="Surname" class="form-control" type="text" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Şehir</label>
+                            <select asp-for="CityName" class="form-control" data-provide="selectpicker">
+                                @foreach (var city in Model.Cities)
+                                {
+                                    @if (Model.CityName == city.Name)
+                                    {
+                                        <option selected>@city.Name.ToUpper()</option>
+                                    }
+                                    else
+                                    {
+                                        <option>@city.Name.ToUpper()</option>
+                                    }
+                                }
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Telefon No</label>
+                            <input asp-for="PhoneNumber" class="form-control" type="text" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="card-title"><strong>Hesap</strong> Bilgileri</h4>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">Kullanıcı Adı</label>
+                            <input disabled asp-for="UserName" class="form-control" type="text" />
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label class="text-fader">E-posta</label>
+                            <input disabled asp-for="Email" class="form-control" type="text" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card imgArea">
+                <h4 class="card-title"><strong>Profil</strong> Resmi</h4>
+                <div class="card-body">
+                    <div class="flexbox gap-items-4">
+                        @if (!string.IsNullOrEmpty(Model.ImageUrl))
+                        {
+                            <img class="avatar avatar-xl personelImgUrl" src="@Model.ImageUrl" />
+                        }
+                        else
+                        {
+                            <img class="avatar avatar-xl personelImgUrl" src="~/assets/img/avatar/2.jpg" />
+                        }
+                        <div class="flex-grow">
+                            <h5 id="nameSurnameArea">@(Model.Name +" "+Model.Surname)</h5>
+                            <div class="flexbox justify-content-start mt-16">
+                                <div class="file-group file-group-inline">
+                                    <button class="btn btn-sm btn-bold btn-secondary file-browser" type="button">Değiştir</button>
+                                    <input type="file" id="personelImg" asp-for="Image" />
+                                </div>
+                                <a class="btn btn-sm btn-bold btn-danger " href="#">Sil</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h4 class="card-title"><strong>Bildirimler</strong> </h4>
+                <div class="media">
+                    <div class="media-body">
+                        <p><strong>Bildirimler</strong></p>
+                        <p>Diğer Kullanıcılardan Bildirim Al</p>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" asp-for="ReceiveNotification" />
+                        <span class="switch-indicator"></span>
+                    </label>
+                </div>
+                <div class="media">
+                    <div class="media-body">
+                        <p><strong>Mesajlar</strong></p>
+                        <p>Diğer Kullanıcılardan Mesaj Al</p>
+                    </div>
+                    <label class="switch">
+                        <input type="checkbox" asp-for="ReceiveMessage" />
+                        <span class="switch-indicator"></span>
+                    </label>
+                </div>
+                <hr />
+                <button class="btn btn-block btn-bold btn-primary" type="submit"> Kaydet </button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts{
+    <script src="~/js/personelSettings.js"></script>
+    
+}

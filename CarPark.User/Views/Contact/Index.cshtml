@@ -1,0 +1,9 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer  localizer
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>@localizer["Title"]</h1>
+
