@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarPar.Entities\CarPar.Entities.csproj" />
+    <ProjectReference Include="..\CarPark.DataAccess\CarPark.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
