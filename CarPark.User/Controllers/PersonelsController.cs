@@ -39,6 +39,21 @@ namespace CarPark.User.Controllers
 
             return View(result);
         }
+        public IActionResult List()
+        {
+            var result = _personelService.GetPersonelsByAge();
+            return View(result);
+        }
+        [Route("getroles/{id}")]
+        public async Task<IActionResult> GetRoles(string id)
+        {
+            return Json(await _personelService.GetPersonelRoles(id));
+        }
+        [Route("update/personel/roles")]
+        public async Task<IActionResult> UpdatePersonelRoles(string personelId, string[] personelRoleList)
+        {
+            return Json(await _personelService.UpdatePersonelRoles(personelId, personelRoleList));
+        }
         public async Task<IActionResult> Settings()
         {
             var user = await _userManager.GetUserAsync(User);

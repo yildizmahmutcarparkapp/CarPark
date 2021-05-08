@@ -2502,3 +2502,1223 @@ File name: 'System.ComponentModel.Annotations, Version=4.3.1.0, Culture=neutral,
 2021-05-03 18:31:20.855 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.Settings (CarPark.User) in 1359.9904000000001ms
 2021-05-03 18:31:20.856 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.Settings (CarPark.User)'
 2021-05-03 18:31:20.857 +03:00 [INF] Request finished in 1484.9023ms 200 application/json; charset=utf-8
+2021-05-07 14:36:52.842 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 14:36:54.535 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 14:36:54.536 +03:00 [INF] Hosting environment: Development
+2021-05-07 14:36:54.536 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 14:36:54.652 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 14:36:54.756 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 14:36:54.865 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 14:36:54.892 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 14:36:55.109 +03:00 [INF] Executed ViewResult - view Index executed in 228.167ms.
+2021-05-07 14:36:55.114 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 247.84140000000002ms
+2021-05-07 14:36:55.115 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 14:36:55.124 +03:00 [INF] Request finished in 477.5106ms 200 text/html; charset=utf-8
+2021-05-07 14:36:55.214 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/style.min.css  
+2021-05-07 14:36:55.217 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/app.min.css  
+2021-05-07 14:36:55.233 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/core.min.css  
+2021-05-07 14:36:55.270 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-07 14:36:55.270 +03:00 [INF] Request finished in 56.461600000000004ms 200 text/css
+2021-05-07 14:36:55.281 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-07 14:36:55.282 +03:00 [INF] Request finished in 52.273ms 200 text/css
+2021-05-07 14:36:55.285 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-07 14:36:55.285 +03:00 [INF] Request finished in 67.7853ms 200 text/css
+2021-05-07 14:36:55.382 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/core.min.js  
+2021-05-07 14:36:55.382 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/app.min.js  
+2021-05-07 14:36:55.383 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/script.min.js  
+2021-05-07 14:36:55.389 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-05-07 14:36:55.390 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery/jquery.unobtrusive-ajax.min.js  
+2021-05-07 14:36:55.486 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/1.jpg  
+2021-05-07 14:36:55.488 +03:00 [INF] Sending file. Request path: '/lib/jquery/jquery.unobtrusive-ajax.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery\jquery.unobtrusive-ajax.min.js'
+2021-05-07 14:36:55.488 +03:00 [INF] Request finished in 97.8679ms 200 application/javascript
+2021-05-07 14:36:55.498 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-05-07 14:36:55.499 +03:00 [INF] Request finished in 109.5558ms 200 application/javascript
+2021-05-07 14:36:55.502 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/1.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\1.jpg'
+2021-05-07 14:36:55.502 +03:00 [INF] Request finished in 16.2985ms 200 image/jpeg
+2021-05-07 14:36:55.489 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-05-07 14:36:55.506 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-07 14:36:55.506 +03:00 [INF] Request finished in 124.1186ms 200 application/javascript
+2021-05-07 14:36:55.507 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-07 14:36:55.507 +03:00 [INF] Request finished in 124.1251ms 200 application/javascript
+2021-05-07 14:36:55.543 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/3.jpg  
+2021-05-07 14:36:55.574 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/4.jpg  
+2021-05-07 14:36:55.575 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/5.jpg  
+2021-05-07 14:36:55.576 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-05-07 14:36:55.576 +03:00 [INF] Request finished in 86.8221ms 200 application/javascript
+2021-05-07 14:36:55.583 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/4.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\4.jpg'
+2021-05-07 14:36:55.583 +03:00 [INF] Request finished in 8.3421ms 200 image/jpeg
+2021-05-07 14:36:55.589 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/3.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\3.jpg'
+2021-05-07 14:36:55.589 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-07 14:36:55.590 +03:00 [INF] Request finished in 207.72400000000002ms 200 application/javascript
+2021-05-07 14:36:55.593 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/5.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\5.jpg'
+2021-05-07 14:36:55.594 +03:00 [INF] Request finished in 18.7348ms 200 image/jpeg
+2021-05-07 14:36:55.598 +03:00 [INF] Request finished in 45.7425ms 200 image/jpeg
+2021-05-07 14:36:55.613 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/2.jpg  
+2021-05-07 14:36:55.619 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/2.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\2.jpg'
+2021-05-07 14:36:55.620 +03:00 [INF] Request finished in 6.772200000000001ms 200 image/jpeg
+2021-05-07 14:36:55.825 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2021-05-07 14:36:55.825 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/fonts/themify.woff?-fvbane  
+2021-05-07 14:36:55.848 +03:00 [INF] Sending file. Request path: '/assets/fonts/themify.woff'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\fonts\themify.woff'
+2021-05-07 14:36:55.848 +03:00 [INF] Sending file. Request path: '/assets/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\fonts\fontawesome-webfont.woff2'
+2021-05-07 14:36:55.849 +03:00 [INF] Request finished in 23.961000000000002ms 200 application/font-woff
+2021-05-07 14:36:55.849 +03:00 [INF] Request finished in 23.96ms 200 font/woff2
+2021-05-07 14:36:55.975 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/material-icons/css/material-icons.css  
+2021-05-07 14:36:55.997 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/css/material-icons.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\css\material-icons.css'
+2021-05-07 14:36:55.997 +03:00 [INF] Request finished in 22.343300000000003ms 200 text/css
+2021-05-07 14:36:56.048 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-07 14:36:56.049 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-07 14:36:56.102 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-07 14:36:56.103 +03:00 [INF] Request finished in 54.4703ms 200 application/javascript
+2021-05-07 14:36:56.110 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-07 14:36:56.112 +03:00 [INF] Request finished in 61.8042ms 200 application/javascript
+2021-05-07 14:36:56.116 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/i8-icon/jquery-i8-icon.min.js  
+2021-05-07 14:36:56.116 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/screenfull/screenfull.min.js  
+2021-05-07 14:36:56.119 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typed.js/typed.min.js  
+2021-05-07 14:36:56.124 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2  
+2021-05-07 14:36:56.167 +03:00 [INF] Sending file. Request path: '/assets/vendor/typed.js/typed.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typed.js\typed.min.js'
+2021-05-07 14:36:56.167 +03:00 [INF] Request finished in 48.248000000000005ms 200 application/javascript
+2021-05-07 14:36:56.167 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\fonts\MaterialIcons-Regular.woff2'
+2021-05-07 14:36:56.170 +03:00 [INF] Sending file. Request path: '/assets/vendor/screenfull/screenfull.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\screenfull\screenfull.min.js'
+2021-05-07 14:36:56.169 +03:00 [INF] Request finished in 44.661100000000005ms 200 font/woff2
+2021-05-07 14:36:56.173 +03:00 [INF] Request finished in 53.3504ms 200 application/javascript
+2021-05-07 14:36:56.175 +03:00 [INF] Sending file. Request path: '/assets/vendor/i8-icon/jquery-i8-icon.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\i8-icon\jquery-i8-icon.min.js'
+2021-05-07 14:36:56.175 +03:00 [INF] Request finished in 58.806400000000004ms 200 application/javascript
+2021-05-07 14:37:30.579 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personel/settings  
+2021-05-07 14:37:30.588 +03:00 [INF] Request finished in 10.0073ms 404 
+2021-05-07 14:37:37.352 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personel/list  
+2021-05-07 14:37:37.364 +03:00 [INF] Request finished in 11.7773ms 404 
+2021-05-07 14:37:43.193 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 14:37:43.199 +03:00 [INF] Request finished in 6.4785ms 404 
+2021-05-07 22:19:33.150 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:19:33.664 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:19:33.666 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:19:33.666 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:19:33.721 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 22:19:33.799 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:19:33.821 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:19:33.891 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 22:19:33.916 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 22:19:34.111 +03:00 [INF] Executed ViewResult - view Index executed in 198.86700000000002ms.
+2021-05-07 22:19:34.114 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 222.27530000000002ms
+2021-05-07 22:19:34.115 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:19:34.128 +03:00 [INF] Request finished in 414.44300000000004ms 200 text/html; charset=utf-8
+2021-05-07 22:19:34.244 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/core.min.css  
+2021-05-07 22:19:34.252 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/style.min.css  
+2021-05-07 22:19:34.256 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/app.min.css  
+2021-05-07 22:19:34.259 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-07 22:19:34.259 +03:00 [INF] Request finished in 7.138800000000001ms 200 text/css
+2021-05-07 22:19:34.278 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-07 22:19:34.279 +03:00 [INF] Request finished in 35.3604ms 200 text/css
+2021-05-07 22:19:34.293 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-07 22:19:34.294 +03:00 [INF] Request finished in 37.727000000000004ms 200 text/css
+2021-05-07 22:19:34.464 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/app.min.js  
+2021-05-07 22:19:34.465 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-05-07 22:19:34.465 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-05-07 22:19:34.465 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/1.jpg  
+2021-05-07 22:19:34.466 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/2.jpg  
+2021-05-07 22:19:34.466 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/core.min.js  
+2021-05-07 22:19:34.467 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/3.jpg  
+2021-05-07 22:19:34.467 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-05-07 22:19:34.468 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/1.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\1.jpg'
+2021-05-07 22:19:34.468 +03:00 [INF] Request finished in 2.498ms 200 application/javascript
+2021-05-07 22:19:34.468 +03:00 [INF] Request finished in 2.2356000000000003ms 200 image/jpeg
+2021-05-07 22:19:34.468 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/4.jpg  
+2021-05-07 22:19:34.468 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/5.jpg  
+2021-05-07 22:19:34.468 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/2.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\2.jpg'
+2021-05-07 22:19:34.468 +03:00 [INF] Request finished in 2.3989000000000003ms 200 image/jpeg
+2021-05-07 22:19:34.470 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/script.min.js  
+2021-05-07 22:19:34.470 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/3.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\3.jpg'
+2021-05-07 22:19:34.470 +03:00 [INF] Request finished in 2.9174ms 200 image/jpeg
+2021-05-07 22:19:34.470 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/4.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\4.jpg'
+2021-05-07 22:19:34.471 +03:00 [INF] Request finished in 2.8618ms 200 image/jpeg
+2021-05-07 22:19:34.472 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/5.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\5.jpg'
+2021-05-07 22:19:34.473 +03:00 [INF] Request finished in 4.9881ms 200 image/jpeg
+2021-05-07 22:19:34.475 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-05-07 22:19:34.475 +03:00 [INF] Request finished in 10.1746ms 200 application/javascript
+2021-05-07 22:19:34.476 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-07 22:19:34.477 +03:00 [INF] Request finished in 7.1176ms 200 application/javascript
+2021-05-07 22:19:34.492 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-07 22:19:34.492 +03:00 [INF] Request finished in 28.249100000000002ms 200 application/javascript
+2021-05-07 22:19:34.514 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery/jquery.unobtrusive-ajax.min.js  
+2021-05-07 22:19:34.523 +03:00 [INF] Sending file. Request path: '/lib/jquery/jquery.unobtrusive-ajax.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery\jquery.unobtrusive-ajax.min.js'
+2021-05-07 22:19:34.523 +03:00 [INF] Request finished in 8.7896ms 200 application/javascript
+2021-05-07 22:19:34.524 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-07 22:19:34.524 +03:00 [INF] Request finished in 58.0737ms 200 application/javascript
+2021-05-07 22:19:35.000 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2021-05-07 22:19:35.001 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/fonts/themify.woff?-fvbane  
+2021-05-07 22:19:35.015 +03:00 [INF] Sending file. Request path: '/assets/fonts/themify.woff'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\fonts\themify.woff'
+2021-05-07 22:19:35.016 +03:00 [INF] Request finished in 16.3656ms 200 application/font-woff
+2021-05-07 22:19:35.020 +03:00 [INF] Sending file. Request path: '/assets/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\fonts\fontawesome-webfont.woff2'
+2021-05-07 22:19:35.021 +03:00 [INF] Request finished in 21.6583ms 200 font/woff2
+2021-05-07 22:19:35.067 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/material-icons/css/material-icons.css  
+2021-05-07 22:19:35.069 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/css/material-icons.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\css\material-icons.css'
+2021-05-07 22:19:35.069 +03:00 [INF] Request finished in 2.0788ms 200 text/css
+2021-05-07 22:19:35.143 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-07 22:19:35.145 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/i8-icon/jquery-i8-icon.min.js  
+2021-05-07 22:19:35.145 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-07 22:19:35.158 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-07 22:19:35.158 +03:00 [INF] Request finished in 13.156600000000001ms 200 application/javascript
+2021-05-07 22:19:35.160 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-07 22:19:35.160 +03:00 [INF] Request finished in 17.004ms 200 application/javascript
+2021-05-07 22:19:35.176 +03:00 [INF] Sending file. Request path: '/assets/vendor/i8-icon/jquery-i8-icon.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\i8-icon\jquery-i8-icon.min.js'
+2021-05-07 22:19:35.176 +03:00 [INF] Request finished in 31.555500000000002ms 200 application/javascript
+2021-05-07 22:19:35.194 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/screenfull/screenfull.min.js  
+2021-05-07 22:19:35.206 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typed.js/typed.min.js  
+2021-05-07 22:19:35.207 +03:00 [INF] Sending file. Request path: '/assets/vendor/screenfull/screenfull.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\screenfull\screenfull.min.js'
+2021-05-07 22:19:35.207 +03:00 [INF] Request finished in 12.738700000000001ms 200 application/javascript
+2021-05-07 22:19:35.209 +03:00 [INF] Sending file. Request path: '/assets/vendor/typed.js/typed.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typed.js\typed.min.js'
+2021-05-07 22:19:35.209 +03:00 [INF] Request finished in 2.8834ms 200 application/javascript
+2021-05-07 22:19:35.304 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2  
+2021-05-07 22:19:35.306 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\fonts\MaterialIcons-Regular.woff2'
+2021-05-07 22:19:35.306 +03:00 [INF] Request finished in 2.4074ms 200 font/woff2
+2021-05-07 22:19:37.341 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personel/settings  
+2021-05-07 22:19:37.354 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:19:37.358 +03:00 [INF] Request finished in 17.5151ms 404 
+2021-05-07 22:19:41.892 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:19:41.903 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:19:41.910 +03:00 [INF] Authorization failed.
+2021-05-07 22:19:41.913 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-05-07 22:19:41.914 +03:00 [INF] Request finished in 21.7562ms 302 
+2021-05-07 22:19:41.927 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 22:19:41.929 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:19:41.930 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:19:41.957 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:19:42.095 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 22:19:42.213 +03:00 [INF] Executed ViewResult - view Login executed in 118.93270000000001ms.
+2021-05-07 22:19:42.213 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 256.094ms
+2021-05-07 22:19:42.213 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:19:42.213 +03:00 [INF] Request finished in 286.4894ms 200 text/html; charset=utf-8
+2021-05-07 22:19:42.632 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/ionicons/css/ionicons.min.css  
+2021-05-07 22:19:42.696 +03:00 [INF] Sending file. Request path: '/assets/vendor/ionicons/css/ionicons.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\ionicons\css\ionicons.min.css'
+2021-05-07 22:19:42.698 +03:00 [INF] Request finished in 64.9825ms 200 text/css
+2021-05-07 22:19:43.617 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login?returnurl=%2Fpersonels%2Flist application/x-www-form-urlencoded 227
+2021-05-07 22:19:43.629 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:19:43.631 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:19:43.708 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:19:44.750 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 1041.6748ms
+2021-05-07 22:19:44.751 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:19:44.754 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+MongoDB.Driver.MongoAuthenticationException: Unable to authenticate using sasl protocol mechanism SCRAM-SHA-1.
+ ---> MongoDB.Driver.MongoCommandException: Command saslContinue failed: bad auth : Authentication failed..
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingQueryMessageWireProtocol`1.ProcessReply(ConnectionId connectionId, ReplyMessage`1 reply)
+   at MongoDB.Driver.Core.WireProtocol.CommandUsingQueryMessageWireProtocol`1.ExecuteAsync(IConnection connection, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Authentication.SaslAuthenticator.AuthenticateAsync(IConnection connection, ConnectionDescription description, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at MongoDB.Driver.Core.Connections.BinaryConnection.OpenHelperAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Servers.Server.GetChannelAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.InitializeAsync(CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.RetryableReadContext.CreateAsync(IReadBinding binding, Boolean retryRequested, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   at MongoDB.Driver.IAsyncCursorSourceExtensions.FirstOrDefaultAsync[TDocument](IAsyncCursorSource`1 source, CancellationToken cancellationToken)
+   at MongoDbGenericRepository.DataAccess.Read.MongoDbReader.GetOneAsync[TDocument,TKey](Expression`1 filter, String partitionKey)
+   at MongoDbGenericRepository.ReadOnlyMongoRepository.GetOneAsync[TDocument,TKey](Expression`1 filter, String partitionKey)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.SignInManager`1.PasswordSignInAsync(String userName, String password, Boolean isPersistent, Boolean lockoutOnFailure)
+   at CarPark.User.Controllers.AccountController.Login(LoginModel model, String returnUrl) in C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\Controllers\AccountController.cs:line 84
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-05-07 22:19:45.040 +03:00 [INF] Request finished in 1427.1560000000002ms 500 text/html; charset=utf-8
+2021-05-07 22:20:19.132 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:20:19.501 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:20:19.502 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:20:19.502 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:20:19.560 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 22:20:19.649 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:20:19.658 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:20:19.747 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 22:20:19.760 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 22:20:19.892 +03:00 [INF] Executed ViewResult - view Index executed in 136.7217ms.
+2021-05-07 22:20:19.896 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 148.4469ms
+2021-05-07 22:20:19.897 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:20:19.907 +03:00 [INF] Request finished in 368.0296ms 200 text/html; charset=utf-8
+2021-05-07 22:20:36.885 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personel/list  
+2021-05-07 22:20:36.890 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:20:36.893 +03:00 [INF] Request finished in 8.8621ms 404 
+2021-05-07 22:20:41.267 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:20:41.275 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:20:41.302 +03:00 [INF] Authorization failed.
+2021-05-07 22:20:41.306 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-05-07 22:20:41.307 +03:00 [INF] Request finished in 40.3509ms 302 
+2021-05-07 22:20:41.318 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 22:20:41.320 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:20:41.321 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:20:41.344 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:20:41.387 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 22:20:41.459 +03:00 [INF] Executed ViewResult - view Login executed in 74.0487ms.
+2021-05-07 22:20:41.460 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 115.6678ms
+2021-05-07 22:20:41.460 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:20:41.460 +03:00 [INF] Request finished in 141.8358ms 200 text/html; charset=utf-8
+2021-05-07 22:20:42.994 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login?returnurl=%2Fpersonels%2Flist application/x-www-form-urlencoded 227
+2021-05-07 22:20:43.006 +03:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2021-05-07 22:20:43.009 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:20:43.038 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:20:44.734 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 22:20:44.741 +03:00 [INF] Executing RedirectResult, redirecting to /personels/list.
+2021-05-07 22:20:44.744 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 1706.1278ms
+2021-05-07 22:20:44.746 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:20:44.750 +03:00 [INF] Request finished in 1761.5328000000002ms 302 
+2021-05-07 22:20:44.762 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:20:44.768 +03:00 [INF] Authorization was successful.
+2021-05-07 22:20:44.768 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:20:44.772 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:20:45.138 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 22:20:45.148 +03:00 [INF] Executed ViewResult - view List executed in 10.7104ms.
+2021-05-07 22:20:45.148 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 376.7303ms
+2021-05-07 22:20:45.149 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:20:45.150 +03:00 [INF] Request finished in 388.4012ms 200 text/html; charset=utf-8
+2021-05-07 22:25:33.792 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:25:34.271 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:25:34.271 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:25:34.272 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:25:34.314 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 22:25:34.469 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:25:34.583 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 22:25:34.609 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 22:25:34.781 +03:00 [INF] Executed ViewResult - view Index executed in 178.80270000000002ms.
+2021-05-07 22:25:34.784 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 200.7408ms
+2021-05-07 22:25:34.785 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:25:34.798 +03:00 [INF] Request finished in 496.4705ms 200 text/html; charset=utf-8
+2021-05-07 22:25:38.995 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:25:39.015 +03:00 [INF] Authorization was successful.
+2021-05-07 22:25:39.016 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:25:39.023 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:25:40.140 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 22:25:40.148 +03:00 [INF] Executed ViewResult - view List executed in 8.8672ms.
+2021-05-07 22:25:40.149 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1125.6372000000001ms
+2021-05-07 22:25:40.149 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:25:40.150 +03:00 [INF] Request finished in 1155.4651000000001ms 200 text/html; charset=utf-8
+2021-05-07 22:25:40.311 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/core.min.css  
+2021-05-07 22:25:40.313 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/app.min.css  
+2021-05-07 22:25:40.315 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/css/style.min.css  
+2021-05-07 22:25:40.349 +03:00 [INF] Sending file. Request path: '/assets/css/style.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\style.min.css'
+2021-05-07 22:25:40.349 +03:00 [INF] Sending file. Request path: '/assets/css/core.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\core.min.css'
+2021-05-07 22:25:40.349 +03:00 [INF] Request finished in 34.1571ms 200 text/css
+2021-05-07 22:25:40.350 +03:00 [INF] Request finished in 39.6627ms 200 text/css
+2021-05-07 22:25:40.376 +03:00 [INF] Sending file. Request path: '/assets/css/app.min.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\css\app.min.css'
+2021-05-07 22:25:40.376 +03:00 [INF] Request finished in 63.671200000000006ms 200 text/css
+2021-05-07 22:25:40.537 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/core.min.js  
+2021-05-07 22:25:40.538 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/app.min.js  
+2021-05-07 22:25:40.541 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/js/script.min.js  
+2021-05-07 22:25:40.544 +03:00 [INF] Sending file. Request path: '/assets/js/script.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\script.min.js'
+2021-05-07 22:25:40.545 +03:00 [INF] Request finished in 4.0265ms 200 application/javascript
+2021-05-07 22:25:40.545 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery/jquery.unobtrusive-ajax.min.js  
+2021-05-07 22:25:40.546 +03:00 [INF] Sending file. Request path: '/assets/js/app.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\app.min.js'
+2021-05-07 22:25:40.546 +03:00 [INF] Request finished in 8.036900000000001ms 200 application/javascript
+2021-05-07 22:25:40.550 +03:00 [INF] Sending file. Request path: '/lib/jquery/jquery.unobtrusive-ajax.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery\jquery.unobtrusive-ajax.min.js'
+2021-05-07 22:25:40.550 +03:00 [INF] Request finished in 5.0769ms 200 application/javascript
+2021-05-07 22:25:40.557 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery-validation/dist/jquery.validate.min.js  
+2021-05-07 22:25:40.564 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js  
+2021-05-07 22:25:40.566 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js'
+2021-05-07 22:25:40.566 +03:00 [INF] Request finished in 9.3696ms 200 application/javascript
+2021-05-07 22:25:40.577 +03:00 [INF] Sending file. Request path: '/assets/js/core.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\js\core.min.js'
+2021-05-07 22:25:40.578 +03:00 [INF] Request finished in 40.7854ms 200 application/javascript
+2021-05-07 22:25:40.579 +03:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js'
+2021-05-07 22:25:40.579 +03:00 [INF] Request finished in 15.485100000000001ms 200 application/javascript
+2021-05-07 22:25:40.579 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/1.jpg  
+2021-05-07 22:25:40.581 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/2.jpg  
+2021-05-07 22:25:40.596 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/1.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\1.jpg'
+2021-05-07 22:25:40.596 +03:00 [INF] Request finished in 17.0939ms 200 image/jpeg
+2021-05-07 22:25:40.598 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/2.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\2.jpg'
+2021-05-07 22:25:40.600 +03:00 [INF] Request finished in 19.470000000000002ms 200 image/jpeg
+2021-05-07 22:25:40.638 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/3.jpg  
+2021-05-07 22:25:40.644 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/5.jpg  
+2021-05-07 22:25:40.659 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/5.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\5.jpg'
+2021-05-07 22:25:40.660 +03:00 [INF] Request finished in 15.593200000000001ms 200 image/jpeg
+2021-05-07 22:25:40.660 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/avatar/4.jpg  
+2021-05-07 22:25:40.663 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/3.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\3.jpg'
+2021-05-07 22:25:40.663 +03:00 [INF] Request finished in 24.9697ms 200 image/jpeg
+2021-05-07 22:25:40.667 +03:00 [INF] Sending file. Request path: '/assets/img/avatar/4.jpg'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\avatar\4.jpg'
+2021-05-07 22:25:40.668 +03:00 [INF] Request finished in 7.573ms 200 image/jpeg
+2021-05-07 22:25:40.767 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/fonts/fontawesome-webfont.woff2?v=4.7.0  
+2021-05-07 22:25:40.769 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/fonts/themify.woff?-fvbane  
+2021-05-07 22:25:40.782 +03:00 [INF] Sending file. Request path: '/assets/fonts/fontawesome-webfont.woff2'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\fonts\fontawesome-webfont.woff2'
+2021-05-07 22:25:40.782 +03:00 [INF] Request finished in 16.130100000000002ms 200 font/woff2
+2021-05-07 22:25:40.784 +03:00 [INF] Sending file. Request path: '/assets/fonts/themify.woff'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\fonts\themify.woff'
+2021-05-07 22:25:40.785 +03:00 [INF] Request finished in 15.628ms 200 application/font-woff
+2021-05-07 22:25:41.158 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/material-icons/css/material-icons.css  
+2021-05-07 22:25:41.163 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/css/material-icons.css'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\css\material-icons.css'
+2021-05-07 22:25:41.164 +03:00 [INF] Request finished in 8.242600000000001ms 200 text/css
+2021-05-07 22:25:41.231 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typeahead/bloodhound.min.js  
+2021-05-07 22:25:41.239 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/bloodhound.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\bloodhound.min.js'
+2021-05-07 22:25:41.239 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typeahead/typeahead.jquery.min.js  
+2021-05-07 22:25:41.239 +03:00 [INF] Request finished in 8.6354ms 200 application/javascript
+2021-05-07 22:25:41.242 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/i8-icon/jquery-i8-icon.min.js  
+2021-05-07 22:25:41.244 +03:00 [INF] Sending file. Request path: '/assets/vendor/typeahead/typeahead.jquery.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typeahead\typeahead.jquery.min.js'
+2021-05-07 22:25:41.247 +03:00 [INF] Request finished in 7.2236ms 200 application/javascript
+2021-05-07 22:25:41.247 +03:00 [INF] Sending file. Request path: '/assets/vendor/i8-icon/jquery-i8-icon.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\i8-icon\jquery-i8-icon.min.js'
+2021-05-07 22:25:41.247 +03:00 [INF] Request finished in 5.415100000000001ms 200 application/javascript
+2021-05-07 22:25:41.258 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2  
+2021-05-07 22:25:41.268 +03:00 [INF] Sending file. Request path: '/assets/vendor/material-icons/fonts/MaterialIcons-Regular.woff2'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\material-icons\fonts\MaterialIcons-Regular.woff2'
+2021-05-07 22:25:41.268 +03:00 [INF] Request finished in 10.5195ms 200 font/woff2
+2021-05-07 22:25:41.283 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/screenfull/screenfull.min.js  
+2021-05-07 22:25:41.285 +03:00 [INF] Sending file. Request path: '/assets/vendor/screenfull/screenfull.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\screenfull\screenfull.min.js'
+2021-05-07 22:25:41.285 +03:00 [INF] Request finished in 1.8692000000000002ms 200 application/javascript
+2021-05-07 22:25:41.294 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typed.js/typed.min.js  
+2021-05-07 22:25:41.299 +03:00 [INF] Sending file. Request path: '/assets/vendor/typed.js/typed.min.js'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typed.js\typed.min.js'
+2021-05-07 22:25:41.299 +03:00 [INF] Request finished in 5.5776ms 200 application/javascript
+2021-05-07 22:25:41.670 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/favicon.png  
+2021-05-07 22:25:41.696 +03:00 [INF] Sending file. Request path: '/assets/img/favicon.png'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\favicon.png'
+2021-05-07 22:25:41.697 +03:00 [INF] Request finished in 27.0925ms 200 image/png
+2021-05-07 22:26:42.745 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:26:43.104 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:26:43.104 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:26:43.104 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:26:43.144 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 22:26:43.287 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:26:43.354 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 22:26:43.394 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 22:26:43.527 +03:00 [INF] Executed ViewResult - view Index executed in 160.88590000000002ms.
+2021-05-07 22:26:43.531 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 176.30890000000002ms
+2021-05-07 22:26:43.534 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:26:43.550 +03:00 [INF] Request finished in 409.2194ms 200 text/html; charset=utf-8
+2021-05-07 22:26:45.075 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:26:45.108 +03:00 [INF] Authorization was successful.
+2021-05-07 22:26:45.109 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:26:45.120 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:26:46.435 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 22:26:46.454 +03:00 [INF] Executed ViewResult - view List executed in 24.6069ms.
+2021-05-07 22:26:46.454 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1334.0243ms
+2021-05-07 22:26:46.455 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:26:46.456 +03:00 [INF] Request finished in 1380.8784ms 200 text/html; charset=utf-8
+2021-05-07 22:30:36.771 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:30:37.188 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:30:37.189 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:30:37.189 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:30:37.242 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 22:30:37.417 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:30:37.431 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:30:37.549 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 22:30:37.585 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 22:30:37.784 +03:00 [INF] Executed ViewResult - view Index executed in 210.76590000000002ms.
+2021-05-07 22:30:37.786 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 235.75300000000001ms
+2021-05-07 22:30:37.787 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:30:37.823 +03:00 [INF] Request finished in 586.2571ms 200 text/html; charset=utf-8
+2021-05-07 22:30:40.856 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:30:40.869 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:30:40.885 +03:00 [INF] Authorization failed.
+2021-05-07 22:30:41.001 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-05-07 22:30:41.003 +03:00 [INF] Request finished in 147.3161ms 302 
+2021-05-07 22:30:41.020 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 22:30:41.024 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:30:41.025 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:30:41.050 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:30:41.088 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 22:30:41.204 +03:00 [INF] Executed ViewResult - view Login executed in 119.0373ms.
+2021-05-07 22:30:41.205 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 154.72750000000002ms
+2021-05-07 22:30:41.205 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:30:41.205 +03:00 [INF] Request finished in 185.2084ms 200 text/html; charset=utf-8
+2021-05-07 22:30:42.890 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login?returnurl=%2Fpersonels%2Flist application/x-www-form-urlencoded 227
+2021-05-07 22:30:42.893 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:30:42.900 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:30:42.921 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:30:44.437 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 22:30:44.443 +03:00 [INF] Executing RedirectResult, redirecting to /personels/list.
+2021-05-07 22:30:44.448 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 1527.5243ms
+2021-05-07 22:30:44.449 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:30:44.454 +03:00 [INF] Request finished in 1565.3038000000001ms 302 
+2021-05-07 22:30:44.460 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:30:44.470 +03:00 [INF] Authorization was successful.
+2021-05-07 22:30:44.471 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:30:44.475 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:30:44.922 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 22:30:44.931 +03:00 [INF] Executed ViewResult - view List executed in 9.3896ms.
+2021-05-07 22:30:44.931 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 456.15880000000004ms
+2021-05-07 22:30:44.931 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:30:44.932 +03:00 [INF] Request finished in 471.956ms 200 text/html; charset=utf-8
+2021-05-07 22:58:09.368 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:58:10.023 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:58:10.025 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:58:10.025 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:58:10.081 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 22:58:10.217 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:58:10.234 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:58:10.346 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 22:58:10.383 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 22:58:10.563 +03:00 [INF] Executed ViewResult - view Index executed in 181.423ms.
+2021-05-07 22:58:10.566 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 219.0124ms
+2021-05-07 22:58:10.567 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:58:10.597 +03:00 [INF] Request finished in 533.148ms 200 text/html; charset=utf-8
+2021-05-07 22:58:12.696 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:58:12.700 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:58:12.716 +03:00 [INF] Authorization failed.
+2021-05-07 22:58:12.725 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-05-07 22:58:12.729 +03:00 [INF] Request finished in 34.1182ms 302 
+2021-05-07 22:58:12.757 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 22:58:12.768 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:58:12.771 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:58:12.796 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:58:12.819 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 22:58:12.963 +03:00 [INF] Executed ViewResult - view Login executed in 147.6226ms.
+2021-05-07 22:58:12.964 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 167.5632ms
+2021-05-07 22:58:12.964 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:58:12.964 +03:00 [INF] Request finished in 207.9795ms 200 text/html; charset=utf-8
+2021-05-07 22:58:14.534 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login?returnurl=%2Fpersonels%2Flist application/x-www-form-urlencoded 227
+2021-05-07 22:58:14.540 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 22:58:14.547 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:58:14.584 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 22:58:16.047 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 22:58:16.055 +03:00 [INF] Executing RedirectResult, redirecting to /personels/list.
+2021-05-07 22:58:16.057 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 1471.7729000000002ms
+2021-05-07 22:58:16.058 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 22:58:16.061 +03:00 [INF] Request finished in 1530.1587000000002ms 302 
+2021-05-07 22:58:16.068 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:58:16.074 +03:00 [INF] Authorization was successful.
+2021-05-07 22:58:16.075 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:58:16.076 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:58:16.511 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 22:58:16.524 +03:00 [INF] Executed ViewResult - view List executed in 14.649600000000001ms.
+2021-05-07 22:58:16.525 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 448.2124ms
+2021-05-07 22:58:16.525 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:58:16.525 +03:00 [INF] Request finished in 456.7162ms 200 text/html; charset=utf-8
+2021-05-07 22:58:18.046 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/733e84c7-3618-420a-abc4-b4f5c624baac  
+2021-05-07 22:58:18.051 +03:00 [INF] Authorization was successful.
+2021-05-07 22:58:18.052 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:58:18.063 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:58:18.217 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 22:58:18.264 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 200.1474ms
+2021-05-07 22:58:18.264 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:58:18.265 +03:00 [INF] Request finished in 218.8946ms 200 application/json; charset=utf-8
+2021-05-07 22:58:40.319 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:58:40.778 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:58:40.779 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:58:40.779 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:58:40.814 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 22:58:40.970 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:58:41.048 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 22:58:41.063 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 22:58:41.175 +03:00 [INF] Executed ViewResult - view Index executed in 108.3846ms.
+2021-05-07 22:58:41.187 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 133.1982ms
+2021-05-07 22:58:41.190 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 22:58:41.265 +03:00 [INF] Request finished in 455.9365ms 200 text/html; charset=utf-8
+2021-05-07 22:58:43.824 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 22:58:43.848 +03:00 [INF] Authorization was successful.
+2021-05-07 22:58:43.850 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:58:43.860 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:58:45.047 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 22:58:45.075 +03:00 [INF] Executed ViewResult - view List executed in 28.2133ms.
+2021-05-07 22:58:45.075 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1214.5105ms
+2021-05-07 22:58:45.075 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 22:58:45.076 +03:00 [INF] Request finished in 1252.5108ms 200 text/html; charset=utf-8
+2021-05-07 22:58:46.617 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/733e84c7-3618-420a-abc4-b4f5c624baac  
+2021-05-07 22:58:46.638 +03:00 [INF] Authorization was successful.
+2021-05-07 22:58:46.639 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:58:46.684 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:58:47.200 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 22:58:47.218 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 533.9222ms
+2021-05-07 22:58:47.219 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:58:47.222 +03:00 [INF] Request finished in 604.8205ms 200 application/json; charset=utf-8
+2021-05-07 22:59:25.826 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 22:59:26.108 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 22:59:26.109 +03:00 [INF] Hosting environment: Development
+2021-05-07 22:59:26.109 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 22:59:26.144 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 22:59:26.144 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/a093cfe1-ca5e-4065-9c8c-5b66769f7540  
+2021-05-07 22:59:26.270 +03:00 [INF] Authorization was successful.
+2021-05-07 22:59:26.270 +03:00 [INF] Authorization was successful.
+2021-05-07 22:59:26.281 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:59:26.281 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:59:26.354 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:59:26.354 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 22:59:27.617 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 22:59:27.617 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 22:59:27.665 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 1302.0418ms
+2021-05-07 22:59:27.665 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 1302.0418ms
+2021-05-07 22:59:27.668 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:59:27.668 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 22:59:27.674 +03:00 [INF] Request finished in 1537.5924ms 200 application/json; charset=utf-8
+2021-05-07 22:59:27.674 +03:00 [INF] Request finished in 1535.2461ms 200 application/json; charset=utf-8
+2021-05-07 23:01:24.653 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:01:25.016 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:01:25.016 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:01:25.017 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:01:25.054 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:01:25.219 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:01:25.285 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:01:25.302 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:01:25.450 +03:00 [INF] Executed ViewResult - view Index executed in 153.5448ms.
+2021-05-07 23:01:25.454 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 168.86880000000002ms
+2021-05-07 23:01:25.456 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:01:25.489 +03:00 [INF] Request finished in 440.2998ms 200 text/html; charset=utf-8
+2021-05-07 23:01:28.167 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:01:28.188 +03:00 [INF] Authorization was successful.
+2021-05-07 23:01:28.189 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:01:28.196 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:01:29.440 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:01:29.459 +03:00 [INF] Executed ViewResult - view List executed in 21.023400000000002ms.
+2021-05-07 23:01:29.460 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1262.8705ms
+2021-05-07 23:01:29.460 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:01:29.460 +03:00 [INF] Request finished in 1294.1479000000002ms 200 text/html; charset=utf-8
+2021-05-07 23:01:31.495 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/a093cfe1-ca5e-4065-9c8c-5b66769f7540  
+2021-05-07 23:01:31.513 +03:00 [INF] Authorization was successful.
+2021-05-07 23:01:31.513 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:31.569 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:01:32.307 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:01:32.330 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 761.4813ms
+2021-05-07 23:01:32.333 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:32.337 +03:00 [INF] Request finished in 842.4973ms 200 application/json; charset=utf-8
+2021-05-07 23:01:36.787 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/4bf42488-b93a-4436-903e-0229f4aeaf95  
+2021-05-07 23:01:36.794 +03:00 [INF] Authorization was successful.
+2021-05-07 23:01:36.796 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:36.796 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:01:36.963 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:01:36.964 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 167.3827ms
+2021-05-07 23:01:36.964 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:36.965 +03:00 [INF] Request finished in 177.6142ms 200 application/json; charset=utf-8
+2021-05-07 23:01:42.672 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 23:01:42.676 +03:00 [INF] Authorization was successful.
+2021-05-07 23:01:42.677 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:42.678 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:01:42.842 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:01:42.846 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 166.8331ms
+2021-05-07 23:01:42.846 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:42.847 +03:00 [INF] Request finished in 174.8988ms 200 application/json; charset=utf-8
+2021-05-07 23:01:45.781 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/733e84c7-3618-420a-abc4-b4f5c624baac  
+2021-05-07 23:01:45.786 +03:00 [INF] Authorization was successful.
+2021-05-07 23:01:45.787 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:45.788 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:01:45.914 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:01:45.915 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 126.7736ms
+2021-05-07 23:01:45.915 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:01:45.915 +03:00 [INF] Request finished in 134.3371ms 200 application/json; charset=utf-8
+2021-05-07 23:02:13.855 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:02:14.394 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:02:14.395 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:02:14.395 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:02:14.451 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:02:14.596 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:02:14.673 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:02:14.694 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:02:14.812 +03:00 [INF] Executed ViewResult - view Index executed in 121.91900000000001ms.
+2021-05-07 23:02:14.817 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 143.7404ms
+2021-05-07 23:02:14.821 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:02:14.830 +03:00 [INF] Request finished in 389.4513ms 200 text/html; charset=utf-8
+2021-05-07 23:02:17.310 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:02:17.342 +03:00 [INF] Authorization was successful.
+2021-05-07 23:02:17.343 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:02:17.348 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:02:18.742 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:02:18.779 +03:00 [INF] Executed ViewResult - view List executed in 39.042ms.
+2021-05-07 23:02:18.779 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1431.6991ms
+2021-05-07 23:02:18.780 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:02:18.780 +03:00 [INF] Request finished in 1470.9625ms 200 text/html; charset=utf-8
+2021-05-07 23:02:20.348 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/a093cfe1-ca5e-4065-9c8c-5b66769f7540  
+2021-05-07 23:02:20.372 +03:00 [INF] Authorization was successful.
+2021-05-07 23:02:20.374 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:20.402 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:02:20.976 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:02:21.004 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 596.3321000000001ms
+2021-05-07 23:02:21.005 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:21.008 +03:00 [INF] Request finished in 660.1163ms 200 application/json; charset=utf-8
+2021-05-07 23:02:24.078 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/4bf42488-b93a-4436-903e-0229f4aeaf95  
+2021-05-07 23:02:24.089 +03:00 [INF] Authorization was successful.
+2021-05-07 23:02:24.090 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:24.090 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:02:24.225 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:02:24.227 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 136.28900000000002ms
+2021-05-07 23:02:24.227 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:24.227 +03:00 [INF] Request finished in 149.82160000000002ms 200 application/json; charset=utf-8
+2021-05-07 23:02:26.444 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 23:02:26.447 +03:00 [INF] Authorization was successful.
+2021-05-07 23:02:26.449 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:26.450 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:02:26.611 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:02:26.613 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 163.1353ms
+2021-05-07 23:02:26.614 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:26.614 +03:00 [INF] Request finished in 171.9049ms 200 application/json; charset=utf-8
+2021-05-07 23:02:28.647 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/733e84c7-3618-420a-abc4-b4f5c624baac  
+2021-05-07 23:02:28.651 +03:00 [INF] Authorization was successful.
+2021-05-07 23:02:28.652 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:28.653 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:02:28.782 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:02:28.789 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 136.22230000000002ms
+2021-05-07 23:02:28.789 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:28.790 +03:00 [INF] Request finished in 143.314ms 200 application/json; charset=utf-8
+2021-05-07 23:02:35.094 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/a093cfe1-ca5e-4065-9c8c-5b66769f7540  
+2021-05-07 23:02:35.108 +03:00 [INF] Authorization was successful.
+2021-05-07 23:02:35.109 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:35.109 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:02:35.271 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:02:35.272 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 162.87900000000002ms
+2021-05-07 23:02:35.273 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:02:35.273 +03:00 [INF] Request finished in 179.19660000000002ms 200 application/json; charset=utf-8
+2021-05-07 23:03:53.313 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:03:53.692 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:03:53.695 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:03:53.695 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:03:53.737 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:03:53.912 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:03:54.015 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:03:54.060 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:03:54.187 +03:00 [INF] Executed ViewResult - view Index executed in 156.8363ms.
+2021-05-07 23:03:54.192 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 175.3007ms
+2021-05-07 23:03:54.194 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:03:54.202 +03:00 [INF] Request finished in 480.2894ms 200 text/html; charset=utf-8
+2021-05-07 23:03:57.231 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:03:57.257 +03:00 [INF] Authorization was successful.
+2021-05-07 23:03:57.259 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:03:57.268 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:03:58.598 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:03:58.621 +03:00 [INF] Executed ViewResult - view List executed in 24.6456ms.
+2021-05-07 23:03:58.622 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1353.0904ms
+2021-05-07 23:03:58.622 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:03:58.622 +03:00 [INF] Request finished in 1391.9843ms 200 text/html; charset=utf-8
+2021-05-07 23:04:00.267 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/a093cfe1-ca5e-4065-9c8c-5b66769f7540  
+2021-05-07 23:04:00.285 +03:00 [INF] Authorization was successful.
+2021-05-07 23:04:00.287 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:04:00.337 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:04:00.992 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:04:01.056 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 718.6195ms
+2021-05-07 23:04:01.058 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:04:01.070 +03:00 [INF] Request finished in 802.4556ms 200 application/json; charset=utf-8
+2021-05-07 23:04:04.170 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 23:04:04.180 +03:00 [INF] Authorization was successful.
+2021-05-07 23:04:04.181 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:04:04.183 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:04:04.331 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:04:04.332 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 148.59130000000002ms
+2021-05-07 23:04:04.332 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:04:04.333 +03:00 [INF] Request finished in 162.7281ms 200 application/json; charset=utf-8
+2021-05-07 23:11:58.795 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:11:59.569 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:11:59.575 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:11:59.575 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:11:59.629 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:11:59.722 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:11:59.755 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:11:59.891 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:11:59.925 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:12:00.169 +03:00 [INF] Executed ViewResult - view Index executed in 256.5512ms.
+2021-05-07 23:12:00.174 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 282.7971ms
+2021-05-07 23:12:00.175 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:12:00.188 +03:00 [INF] Request finished in 563.1725ms 200 text/html; charset=utf-8
+2021-05-07 23:12:03.162 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:12:03.171 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:12:03.195 +03:00 [INF] Authorization failed.
+2021-05-07 23:12:03.214 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-05-07 23:12:03.224 +03:00 [INF] Request finished in 62.546200000000006ms 302 
+2021-05-07 23:12:03.281 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 23:12:03.294 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:12:03.298 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:12:03.338 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:12:03.382 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 23:12:03.572 +03:00 [INF] Executed ViewResult - view Login executed in 191.6086ms.
+2021-05-07 23:12:03.572 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 232.5267ms
+2021-05-07 23:12:03.572 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:12:03.572 +03:00 [INF] Request finished in 291.86920000000003ms 200 text/html; charset=utf-8
+2021-05-07 23:12:04.972 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login?returnurl=%2Fpersonels%2Flist application/x-www-form-urlencoded 227
+2021-05-07 23:12:04.980 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:12:04.981 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:12:05.044 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:12:07.067 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 23:12:07.074 +03:00 [INF] Executing RedirectResult, redirecting to /personels/list.
+2021-05-07 23:12:07.075 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 2030.8411ms
+2021-05-07 23:12:07.076 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:12:07.079 +03:00 [INF] Request finished in 2116.5668ms 302 
+2021-05-07 23:12:07.087 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:12:07.093 +03:00 [INF] Authorization was successful.
+2021-05-07 23:12:07.095 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:12:07.097 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:12:07.599 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:12:07.625 +03:00 [INF] Executed ViewResult - view List executed in 28.459400000000002ms.
+2021-05-07 23:12:07.626 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 528.5148ms
+2021-05-07 23:12:07.626 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:12:07.626 +03:00 [INF] Request finished in 538.9919ms 200 text/html; charset=utf-8
+2021-05-07 23:12:15.743 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/i8-icon/jquery-i8-icon.min.js.map  
+2021-05-07 23:12:15.744 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typed.js/typed.min.js.map  
+2021-05-07 23:12:15.753 +03:00 [INF] Request finished in 10.0526ms 404 
+2021-05-07 23:12:15.973 +03:00 [INF] Sending file. Request path: '/assets/vendor/typed.js/typed.min.js.map'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typed.js\typed.min.js.map'
+2021-05-07 23:12:15.974 +03:00 [INF] Request finished in 229.6087ms 200 text/plain
+2021-05-07 23:13:09.087 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:13:10.002 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:13:10.008 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:13:10.008 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:13:10.098 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:13:10.351 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:13:10.507 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:13:10.553 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:13:10.813 +03:00 [INF] Executed ViewResult - view Index executed in 275.9497ms.
+2021-05-07 23:13:10.819 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 310.6863ms
+2021-05-07 23:13:10.820 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:13:10.833 +03:00 [INF] Request finished in 743.1464000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:13:12.821 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:13:12.892 +03:00 [INF] Authorization was successful.
+2021-05-07 23:13:12.894 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:13:12.919 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:13:15.038 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:13:15.075 +03:00 [INF] Executed ViewResult - view List executed in 38.941700000000004ms.
+2021-05-07 23:13:15.077 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 2157.5627ms
+2021-05-07 23:13:15.077 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:13:15.080 +03:00 [INF] Request finished in 2259.1628ms 200 text/html; charset=utf-8
+2021-05-07 23:13:17.021 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/733e84c7-3618-420a-abc4-b4f5c624baac  
+2021-05-07 23:13:17.061 +03:00 [INF] Authorization was successful.
+2021-05-07 23:13:17.063 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:13:17.162 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:13:18.138 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:13:18.250 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 1087.65ms
+2021-05-07 23:13:18.252 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:13:18.257 +03:00 [INF] Request finished in 1236.0075000000002ms 200 application/json; charset=utf-8
+2021-05-07 23:13:22.190 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 167
+2021-05-07 23:13:22.198 +03:00 [INF] Authorization was successful.
+2021-05-07 23:13:22.198 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:13:22.220 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:44:31.261 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:44:32.260 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:44:32.261 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:44:32.261 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:44:32.326 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:44:32.444 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:44:32.475 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:44:32.604 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:44:32.645 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:44:32.868 +03:00 [INF] Executed ViewResult - view Index executed in 246.84130000000002ms.
+2021-05-07 23:44:32.875 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 270.6814ms
+2021-05-07 23:44:32.876 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:44:32.957 +03:00 [INF] Request finished in 642.12ms 200 text/html; charset=utf-8
+2021-05-07 23:44:39.647 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:44:39.666 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:44:39.688 +03:00 [INF] Authorization failed.
+2021-05-07 23:44:39.711 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2021-05-07 23:44:39.715 +03:00 [INF] Request finished in 68.8905ms 302 
+2021-05-07 23:44:39.743 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 23:44:39.758 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:44:39.759 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:44:39.793 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:44:39.831 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 23:44:40.114 +03:00 [INF] Executed ViewResult - view Login executed in 286.02860000000004ms.
+2021-05-07 23:44:40.114 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 320.7255ms
+2021-05-07 23:44:40.115 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:44:40.115 +03:00 [INF] Request finished in 371.6447ms 200 text/html; charset=utf-8
+2021-05-07 23:44:41.831 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login?returnurl=%2Fpersonels%2Flist application/x-www-form-urlencoded 227
+2021-05-07 23:44:41.846 +03:00 [INF] Identity.Application was not authenticated. Failure message: Ticket expired
+2021-05-07 23:44:41.847 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:44:41.913 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:44:43.633 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 23:44:43.643 +03:00 [INF] Executing RedirectResult, redirecting to /personels/list.
+2021-05-07 23:44:43.646 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 1732.1342000000002ms
+2021-05-07 23:44:43.647 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:44:43.652 +03:00 [INF] Request finished in 1826.2899ms 302 
+2021-05-07 23:44:43.658 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:44:43.662 +03:00 [INF] Authorization was successful.
+2021-05-07 23:44:43.663 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:44:43.666 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:44:44.333 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:44:44.359 +03:00 [INF] Executed ViewResult - view List executed in 27.9217ms.
+2021-05-07 23:44:44.359 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 689.3688000000001ms
+2021-05-07 23:44:44.359 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:44:44.359 +03:00 [INF] Request finished in 701.8173ms 200 text/html; charset=utf-8
+2021-05-07 23:44:50.221 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 23:44:50.225 +03:00 [INF] Authorization was successful.
+2021-05-07 23:44:50.226 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:44:50.235 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:44:50.416 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:44:50.528 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 292.5573ms
+2021-05-07 23:44:50.528 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:44:50.529 +03:00 [INF] Request finished in 308.4673ms 200 application/json; charset=utf-8
+2021-05-07 23:44:54.975 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 47
+2021-05-07 23:44:54.983 +03:00 [INF] Authorization was successful.
+2021-05-07 23:44:54.984 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:44:54.993 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:44:57.925 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPar.Entities.Concrete.Personel, CarPar.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:44:57.959 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User) in 2966.0179000000003ms
+2021-05-07 23:44:57.960 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:44:57.960 +03:00 [INF] Request finished in 2985.3696ms 200 application/json; charset=utf-8
+2021-05-07 23:45:03.405 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/i8-icon/jquery-i8-icon.min.js.map  
+2021-05-07 23:45:03.595 +03:00 [INF] Request finished in 190.03920000000002ms 404 
+2021-05-07 23:45:03.681 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/vendor/typed.js/typed.min.js.map  
+2021-05-07 23:45:04.065 +03:00 [INF] Sending file. Request path: '/assets/vendor/typed.js/typed.min.js.map'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\vendor\typed.js\typed.min.js.map'
+2021-05-07 23:45:04.065 +03:00 [INF] Request finished in 384.3807ms 200 text/plain
+2021-05-07 23:45:30.821 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:45:31.225 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:45:31.226 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:45:31.226 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:45:31.271 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:45:31.388 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:45:31.460 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:45:31.500 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:45:31.638 +03:00 [INF] Executed ViewResult - view Index executed in 151.5061ms.
+2021-05-07 23:45:31.652 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 188.3922ms
+2021-05-07 23:45:31.739 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:45:31.758 +03:00 [INF] Request finished in 498.18780000000004ms 200 text/html; charset=utf-8
+2021-05-07 23:45:34.338 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:45:34.374 +03:00 [INF] Authorization was successful.
+2021-05-07 23:45:34.375 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:45:34.380 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:45:35.691 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:45:35.720 +03:00 [INF] Executed ViewResult - view List executed in 30.3593ms.
+2021-05-07 23:45:35.721 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1340.2162ms
+2021-05-07 23:45:35.721 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:45:35.722 +03:00 [INF] Request finished in 1384.3627000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:45:37.338 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 23:45:37.354 +03:00 [INF] Authorization was successful.
+2021-05-07 23:45:37.355 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:45:37.406 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:45:38.056 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:45:38.093 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 687.573ms
+2021-05-07 23:45:38.100 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:45:38.107 +03:00 [INF] Request finished in 769.0604000000001ms 200 application/json; charset=utf-8
+2021-05-07 23:45:42.865 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 107
+2021-05-07 23:45:42.868 +03:00 [INF] Authorization was successful.
+2021-05-07 23:45:42.869 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:45:42.877 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:45:43.272 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPar.Entities.Concrete.Personel, CarPar.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:45:43.304 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User) in 426.6091ms
+2021-05-07 23:45:43.304 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:45:43.305 +03:00 [INF] Request finished in 441.5923ms 200 application/json; charset=utf-8
+2021-05-07 23:46:04.013 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:46:04.486 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:46:04.486 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:46:04.487 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:46:04.539 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:46:04.805 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:46:04.944 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:46:04.972 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:46:05.175 +03:00 [INF] Executed ViewResult - view Index executed in 214.5222ms.
+2021-05-07 23:46:05.184 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 238.5012ms
+2021-05-07 23:46:05.187 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:46:05.254 +03:00 [INF] Request finished in 727.9544000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:46:09.769 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:46:09.795 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:09.797 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:46:09.802 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:11.169 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:46:11.184 +03:00 [INF] Executed ViewResult - view List executed in 16.6126ms.
+2021-05-07 23:46:11.185 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1382.9066ms
+2021-05-07 23:46:11.185 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:46:11.186 +03:00 [INF] Request finished in 1423.0964000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:46:13.854 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 23:46:13.879 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:13.880 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:13.918 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:14.591 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:14.641 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 722.154ms
+2021-05-07 23:46:14.648 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:14.654 +03:00 [INF] Request finished in 800.0025ms 200 application/json; charset=utf-8
+2021-05-07 23:46:16.687 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 167
+2021-05-07 23:46:16.694 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:16.695 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:16.703 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:17.071 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPar.Entities.Concrete.Personel, CarPar.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:17.103 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User) in 399.15070000000003ms
+2021-05-07 23:46:17.103 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:17.104 +03:00 [INF] Request finished in 419.5008ms 200 application/json; charset=utf-8
+2021-05-07 23:46:20.930 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/4bf42488-b93a-4436-903e-0229f4aeaf95  
+2021-05-07 23:46:20.940 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:20.942 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:20.944 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:21.084 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:21.086 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 141.3213ms
+2021-05-07 23:46:21.086 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:21.086 +03:00 [INF] Request finished in 156.20940000000002ms 200 application/json; charset=utf-8
+2021-05-07 23:46:23.504 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 167
+2021-05-07 23:46:23.509 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:23.509 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:23.510 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:23.656 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPar.Entities.Concrete.Personel, CarPar.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:23.658 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User) in 147.347ms
+2021-05-07 23:46:23.659 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:23.661 +03:00 [INF] Request finished in 156.696ms 200 application/json; charset=utf-8
+2021-05-07 23:46:25.664 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/bc2291a2-aa4f-4f8a-8636-c4ad40bb99b6  
+2021-05-07 23:46:25.666 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:25.667 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:25.668 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:25.800 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:25.803 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 134.8049ms
+2021-05-07 23:46:25.803 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:25.803 +03:00 [INF] Request finished in 139.7953ms 200 application/json; charset=utf-8
+2021-05-07 23:46:28.033 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 107
+2021-05-07 23:46:28.035 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:28.036 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:28.036 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:28.168 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPar.Entities.Concrete.Personel, CarPar.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:28.169 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User) in 132.838ms
+2021-05-07 23:46:28.170 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:28.170 +03:00 [INF] Request finished in 137.6583ms 200 application/json; charset=utf-8
+2021-05-07 23:46:29.971 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/4bf42488-b93a-4436-903e-0229f4aeaf95  
+2021-05-07 23:46:29.974 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:29.975 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:29.976 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:30.556 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:30.558 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 581.7526ms
+2021-05-07 23:46:30.559 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:30.560 +03:00 [INF] Request finished in 588.1177ms 200 application/json; charset=utf-8
+2021-05-07 23:46:37.290 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 107
+2021-05-07 23:46:37.296 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:37.296 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:37.297 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:37.423 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPar.Entities.Concrete.Personel, CarPar.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:37.424 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User) in 126.80730000000001ms
+2021-05-07 23:46:37.425 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:46:37.427 +03:00 [INF] Request finished in 137.3469ms 200 application/json; charset=utf-8
+2021-05-07 23:46:39.555 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/4bf42488-b93a-4436-903e-0229f4aeaf95  
+2021-05-07 23:46:39.558 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:39.558 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:39.559 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:39.685 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:39.685 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 126.55810000000001ms
+2021-05-07 23:46:39.686 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:39.686 +03:00 [INF] Request finished in 130.9718ms 200 application/json; charset=utf-8
+2021-05-07 23:46:42.257 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:46:42.266 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:42.267 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:46:42.268 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:42.335 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:46:42.338 +03:00 [INF] Executed ViewResult - view List executed in 3.2990000000000004ms.
+2021-05-07 23:46:42.338 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 70.30080000000001ms
+2021-05-07 23:46:42.338 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:46:42.338 +03:00 [INF] Request finished in 81.7338ms 200 text/html; charset=utf-8
+2021-05-07 23:46:42.886 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/favicon.png  
+2021-05-07 23:46:42.912 +03:00 [INF] Sending file. Request path: '/assets/img/favicon.png'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\favicon.png'
+2021-05-07 23:46:42.912 +03:00 [INF] Request finished in 26.497700000000002ms 200 image/png
+2021-05-07 23:46:44.536 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/4bf42488-b93a-4436-903e-0229f4aeaf95  
+2021-05-07 23:46:44.541 +03:00 [INF] Authorization was successful.
+2021-05-07 23:46:44.541 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:44.542 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:46:44.655 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:46:44.656 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 114.1229ms
+2021-05-07 23:46:44.657 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:46:44.657 +03:00 [INF] Request finished in 121.0843ms 200 application/json; charset=utf-8
+2021-05-07 23:47:42.295 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:47:42.562 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:47:42.563 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:47:42.563 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:47:42.594 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:47:42.715 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:47:42.856 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:47:42.883 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:47:43.026 +03:00 [INF] Executed ViewResult - view Index executed in 158.75570000000002ms.
+2021-05-07 23:47:43.030 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 172.74800000000002ms
+2021-05-07 23:47:43.031 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:47:43.042 +03:00 [INF] Request finished in 452.04940000000005ms 200 text/html; charset=utf-8
+2021-05-07 23:48:07.207 +03:00 [INF] User profile is available. Using 'C:\Users\mahmut.yildiz\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-05-07 23:48:07.674 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-05-07 23:48:07.674 +03:00 [INF] Hosting environment: Development
+2021-05-07 23:48:07.674 +03:00 [INF] Content root path: C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User
+2021-05-07 23:48:07.759 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:48:08.044 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:08.188 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:48:08.240 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:48:08.446 +03:00 [INF] Executed ViewResult - view Index executed in 234.6074ms.
+2021-05-07 23:48:08.449 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 260.80490000000003ms
+2021-05-07 23:48:08.455 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:08.526 +03:00 [INF] Request finished in 736.3685ms 200 text/html; charset=utf-8
+2021-05-07 23:48:11.262 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:48:11.294 +03:00 [INF] Authorization was successful.
+2021-05-07 23:48:11.306 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:48:11.311 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:48:12.636 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:48:12.650 +03:00 [INF] Executed ViewResult - view List executed in 15.5465ms.
+2021-05-07 23:48:12.651 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 1338.3855ms
+2021-05-07 23:48:12.651 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:48:12.652 +03:00 [INF] Request finished in 1390.6606000000002ms 200 text/html; charset=utf-8
+2021-05-07 23:48:14.472 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/LogOut  
+2021-05-07 23:48:14.496 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.LogOut (CarPark.User)'
+2021-05-07 23:48:14.528 +03:00 [INF] Route matched with {action = "LogOut", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogOut() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:48:14.544 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2021-05-07 23:48:14.546 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-05-07 23:48:14.546 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2021-05-07 23:48:14.614 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2021-05-07 23:48:14.624 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.LogOut (CarPark.User) in 90.4749ms
+2021-05-07 23:48:14.624 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.LogOut (CarPark.User)'
+2021-05-07 23:48:14.627 +03:00 [INF] Request finished in 163.92100000000002ms 302 
+2021-05-07 23:48:14.646 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:48:14.647 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:14.649 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:48:14.655 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:48:14.659 +03:00 [INF] Executed ViewResult - view Index executed in 5.1863ms.
+2021-05-07 23:48:14.660 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 9.913300000000001ms
+2021-05-07 23:48:14.660 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:14.660 +03:00 [INF] Request finished in 13.8907ms 200 text/html; charset=utf-8
+2021-05-07 23:48:18.238 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Register  
+2021-05-07 23:48:18.243 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-07 23:48:18.258 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:48:18.263 +03:00 [INF] Executing ViewResult, running view Register.
+2021-05-07 23:48:18.389 +03:00 [INF] Executed ViewResult - view Register executed in 129.5353ms.
+2021-05-07 23:48:18.390 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 131.6176ms
+2021-05-07 23:48:18.391 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-07 23:48:18.391 +03:00 [INF] Request finished in 153.1121ms 200 text/html; charset=utf-8
+2021-05-07 23:48:35.362 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Register application/x-www-form-urlencoded 296
+2021-05-07 23:48:35.372 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-07 23:48:35.410 +03:00 [INF] Route matched with {action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Register(CarPark.Models.RequestModel.Account.RegisterCreateModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:48:36.323 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 23:48:36.328 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2021-05-07 23:48:36.329 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Register (CarPark.User) in 918.8596ms
+2021-05-07 23:48:36.330 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Register (CarPark.User)'
+2021-05-07 23:48:36.336 +03:00 [INF] Request finished in 975.7869000000001ms 302 
+2021-05-07 23:48:36.344 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:48:36.345 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:36.345 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:48:36.347 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:48:36.352 +03:00 [INF] Executed ViewResult - view Index executed in 6.0159ms.
+2021-05-07 23:48:36.353 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 7.2729ms
+2021-05-07 23:48:36.353 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:36.353 +03:00 [INF] Request finished in 8.801300000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:48:43.494 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:48:43.505 +03:00 [INF] Authorization failed.
+2021-05-07 23:48:43.508 +03:00 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2021-05-07 23:48:43.509 +03:00 [INF] Request finished in 14.5098ms 302 
+2021-05-07 23:48:43.521 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/AccessDenied?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 23:48:43.522 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.AccessDenied (CarPark.User)'
+2021-05-07 23:48:43.524 +03:00 [INF] Route matched with {action = "AccessDenied", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AccessDenied() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:48:43.526 +03:00 [INF] Executing ViewResult, running view AccessDenied.
+2021-05-07 23:48:43.535 +03:00 [INF] Executed ViewResult - view AccessDenied executed in 10.4549ms.
+2021-05-07 23:48:43.535 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.AccessDenied (CarPark.User) in 11.1777ms
+2021-05-07 23:48:43.535 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.AccessDenied (CarPark.User)'
+2021-05-07 23:48:43.536 +03:00 [INF] Request finished in 14.661900000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:48:48.291 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/LogOut  
+2021-05-07 23:48:48.294 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.LogOut (CarPark.User)'
+2021-05-07 23:48:48.304 +03:00 [INF] Route matched with {action = "LogOut", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogOut() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:48:48.306 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2021-05-07 23:48:48.307 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-05-07 23:48:48.307 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2021-05-07 23:48:48.308 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2021-05-07 23:48:48.309 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.LogOut (CarPark.User) in 4.4971000000000005ms
+2021-05-07 23:48:48.309 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.LogOut (CarPark.User)'
+2021-05-07 23:48:48.310 +03:00 [INF] Request finished in 18.547700000000003ms 302 
+2021-05-07 23:48:48.324 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:48:48.326 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:48.326 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:48:48.327 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:48:48.341 +03:00 [INF] Executed ViewResult - view Index executed in 13.796600000000002ms.
+2021-05-07 23:48:48.341 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 14.9044ms
+2021-05-07 23:48:48.342 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:48.342 +03:00 [INF] Request finished in 17.7407ms 200 text/html; charset=utf-8
+2021-05-07 23:48:51.761 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login  
+2021-05-07 23:48:51.769 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:48:51.776 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:48:51.787 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 23:48:51.811 +03:00 [INF] Executed ViewResult - view Login executed in 24.8904ms.
+2021-05-07 23:48:51.812 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 35.8464ms
+2021-05-07 23:48:51.813 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:48:51.814 +03:00 [INF] Request finished in 53.064ms 200 text/html; charset=utf-8
+2021-05-07 23:48:54.253 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login application/x-www-form-urlencoded 227
+2021-05-07 23:48:54.254 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:48:54.260 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:48:54.694 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 23:48:54.702 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2021-05-07 23:48:54.702 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 441.69120000000004ms
+2021-05-07 23:48:54.702 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:48:54.703 +03:00 [INF] Request finished in 450.06620000000004ms 302 
+2021-05-07 23:48:54.712 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:48:54.716 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:54.717 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:48:54.718 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:48:54.719 +03:00 [INF] Executed ViewResult - view Index executed in 1.7299ms.
+2021-05-07 23:48:54.719 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 2.3111ms
+2021-05-07 23:48:54.720 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:48:54.720 +03:00 [INF] Request finished in 8.366900000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:48:56.131 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:48:56.134 +03:00 [INF] Authorization was successful.
+2021-05-07 23:48:56.135 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:48:56.135 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:48:56.206 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:48:56.207 +03:00 [INF] Executed ViewResult - view List executed in 1.6903000000000001ms.
+2021-05-07 23:48:56.208 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 72.1697ms
+2021-05-07 23:48:56.208 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:48:56.208 +03:00 [INF] Request finished in 77.4401ms 200 text/html; charset=utf-8
+2021-05-07 23:49:02.489 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/getroles/1af19363-4141-4c94-9feb-bde7e6066c33  
+2021-05-07 23:49:02.492 +03:00 [INF] Authorization was successful.
+2021-05-07 23:49:02.493 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:49:02.501 +03:00 [INF] Route matched with {action = "GetRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetRoles(System.String) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:49:02.642 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPark.Models.ViewModels.Personels.PersonelMainRole, CarPark.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:49:02.676 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User) in 174.7186ms
+2021-05-07 23:49:02.676 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.GetRoles (CarPark.User)'
+2021-05-07 23:49:02.676 +03:00 [INF] Request finished in 187.0616ms 200 application/json; charset=utf-8
+2021-05-07 23:49:05.857 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/update/personel/roles application/x-www-form-urlencoded; charset=UTF-8 107
+2021-05-07 23:49:05.868 +03:00 [INF] Authorization was successful.
+2021-05-07 23:49:05.868 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:49:05.875 +03:00 [INF] Route matched with {action = "UpdatePersonelRoles", controller = "Personels"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePersonelRoles(System.String, System.String[]) on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:49:06.019 +03:00 [INF] Executing JsonResult, writing value of type 'CarPark.Core.Models.GetOneResult`1[[CarPar.Entities.Concrete.Personel, CarPar.Entities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-07 23:49:06.053 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User) in 177.7405ms
+2021-05-07 23:49:06.053 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.UpdatePersonelRoles (CarPark.User)'
+2021-05-07 23:49:06.053 +03:00 [INF] Request finished in 196.6242ms 200 application/json; charset=utf-8
+2021-05-07 23:49:08.255 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:49:08.257 +03:00 [INF] Authorization was successful.
+2021-05-07 23:49:08.258 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:49:08.258 +03:00 [INF] Route matched with {action = "List", controller = "Personels"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult List() on controller CarPark.User.Controllers.PersonelsController (CarPark.User).
+2021-05-07 23:49:08.524 +03:00 [INF] Executing ViewResult, running view List.
+2021-05-07 23:49:08.527 +03:00 [INF] Executed ViewResult - view List executed in 3.0872ms.
+2021-05-07 23:49:08.527 +03:00 [INF] Executed action CarPark.User.Controllers.PersonelsController.List (CarPark.User) in 268.9186ms
+2021-05-07 23:49:08.527 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.PersonelsController.List (CarPark.User)'
+2021-05-07 23:49:08.532 +03:00 [INF] Request finished in 276.89ms 200 text/html; charset=utf-8
+2021-05-07 23:49:09.273 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/assets/img/favicon.png  
+2021-05-07 23:49:09.305 +03:00 [INF] Sending file. Request path: '/assets/img/favicon.png'. Physical path: 'C:\Users\mahmut.yildiz\source\repos\yildizmahmutcarparkapp\CarPark\CarPark.User\wwwroot\assets\img\favicon.png'
+2021-05-07 23:49:09.305 +03:00 [INF] Request finished in 32.1218ms 200 image/png
+2021-05-07 23:49:11.539 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/LogOut  
+2021-05-07 23:49:11.553 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.LogOut (CarPark.User)'
+2021-05-07 23:49:11.554 +03:00 [INF] Route matched with {action = "LogOut", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LogOut() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:49:11.554 +03:00 [INF] AuthenticationScheme: Identity.Application signed out.
+2021-05-07 23:49:11.555 +03:00 [INF] AuthenticationScheme: Identity.External signed out.
+2021-05-07 23:49:11.555 +03:00 [INF] AuthenticationScheme: Identity.TwoFactorUserId signed out.
+2021-05-07 23:49:11.556 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2021-05-07 23:49:11.556 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.LogOut (CarPark.User) in 2.1865ms
+2021-05-07 23:49:11.556 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.LogOut (CarPark.User)'
+2021-05-07 23:49:11.556 +03:00 [INF] Request finished in 17.5573ms 302 
+2021-05-07 23:49:11.572 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:49:11.573 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:49:11.573 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:49:11.574 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:49:11.584 +03:00 [INF] Executed ViewResult - view Index executed in 9.9521ms.
+2021-05-07 23:49:11.584 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 10.6881ms
+2021-05-07 23:49:11.584 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:49:11.584 +03:00 [INF] Request finished in 12.2157ms 200 text/html; charset=utf-8
+2021-05-07 23:49:14.338 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/Login  
+2021-05-07 23:49:14.340 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:49:14.340 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:49:14.342 +03:00 [INF] Executing ViewResult, running view Login.
+2021-05-07 23:49:14.357 +03:00 [INF] Executed ViewResult - view Login executed in 15.841600000000001ms.
+2021-05-07 23:49:14.357 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 17.264300000000002ms
+2021-05-07 23:49:14.358 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:49:14.358 +03:00 [INF] Request finished in 20.0029ms 200 text/html; charset=utf-8
+2021-05-07 23:49:16.886 +03:00 [INF] Request starting HTTP/2.0 POST https://localhost:44342/Account/Login application/x-www-form-urlencoded 231
+2021-05-07 23:49:16.888 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:49:16.888 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CarPark.Models.RequestModel.Account.LoginModel, System.String) on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:49:17.067 +03:00 [INF] AuthenticationScheme: Identity.Application signed in.
+2021-05-07 23:49:17.068 +03:00 [INF] Executing RedirectResult, redirecting to /.
+2021-05-07 23:49:17.068 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.Login (CarPark.User) in 179.40640000000002ms
+2021-05-07 23:49:17.068 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.Login (CarPark.User)'
+2021-05-07 23:49:17.069 +03:00 [INF] Request finished in 182.3964ms 302 
+2021-05-07 23:49:17.073 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/  
+2021-05-07 23:49:17.074 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:49:17.075 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.HomeController (CarPark.User).
+2021-05-07 23:49:17.075 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:49:17.079 +03:00 [INF] Executed ViewResult - view Index executed in 4.3467ms.
+2021-05-07 23:49:17.080 +03:00 [INF] Executed action CarPark.User.Controllers.HomeController.Index (CarPark.User) in 4.8841ms
+2021-05-07 23:49:17.080 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.HomeController.Index (CarPark.User)'
+2021-05-07 23:49:17.080 +03:00 [INF] Request finished in 6.6061000000000005ms 200 text/html; charset=utf-8
+2021-05-07 23:49:18.355 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/personels/list  
+2021-05-07 23:49:18.356 +03:00 [INF] Authorization failed.
+2021-05-07 23:49:18.357 +03:00 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2021-05-07 23:49:18.357 +03:00 [INF] Request finished in 2.3499000000000003ms 302 
+2021-05-07 23:49:18.374 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/Account/AccessDenied?ReturnUrl=%2Fpersonels%2Flist  
+2021-05-07 23:49:18.375 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.AccountController.AccessDenied (CarPark.User)'
+2021-05-07 23:49:18.378 +03:00 [INF] Route matched with {action = "AccessDenied", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AccessDenied() on controller CarPark.User.Controllers.AccountController (CarPark.User).
+2021-05-07 23:49:18.379 +03:00 [INF] Executing ViewResult, running view AccessDenied.
+2021-05-07 23:49:18.381 +03:00 [INF] Executed ViewResult - view AccessDenied executed in 1.3820000000000001ms.
+2021-05-07 23:49:18.381 +03:00 [INF] Executed action CarPark.User.Controllers.AccountController.AccessDenied (CarPark.User) in 2.023ms
+2021-05-07 23:49:18.381 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.AccountController.AccessDenied (CarPark.User)'
+2021-05-07 23:49:18.381 +03:00 [INF] Request finished in 7.152900000000001ms 200 text/html; charset=utf-8
+2021-05-07 23:49:21.345 +03:00 [INF] Request starting HTTP/2.0 GET https://localhost:44342/contact  
+2021-05-07 23:49:21.347 +03:00 [INF] Executing endpoint 'CarPark.User.Controllers.ContactController.Index (CarPark.User)'
+2021-05-07 23:49:21.349 +03:00 [INF] Route matched with {action = "Index", controller = "Contact"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CarPark.User.Controllers.ContactController (CarPark.User).
+2021-05-07 23:49:21.352 +03:00 [INF] Executing ViewResult, running view Index.
+2021-05-07 23:49:21.366 +03:00 [INF] Executed ViewResult - view Index executed in 16.0237ms.
+2021-05-07 23:49:21.367 +03:00 [INF] Executed action CarPark.User.Controllers.ContactController.Index (CarPark.User) in 17.2793ms
+2021-05-07 23:49:21.368 +03:00 [INF] Executed endpoint 'CarPark.User.Controllers.ContactController.Index (CarPark.User)'
+2021-05-07 23:49:21.369 +03:00 [INF] Request finished in 24.2813ms 200 text/html; charset=utf-8

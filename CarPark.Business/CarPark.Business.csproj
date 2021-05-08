@@ -7,6 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CarPar.Entities\CarPar.Entities.csproj" />
     <ProjectReference Include="..\CarPark.DataAccess\CarPark.DataAccess.csproj" />
+    <ProjectReference Include="..\CarPark.Models\CarPark.Models.csproj" />
   </ItemGroup>
 
 </Project>
